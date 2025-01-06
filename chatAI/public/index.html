@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>NotGPT</title>
+</head> 
+<body>
+
+    <div class="main-content">
+        <div class="header">
+            <h3>NotGPT</h3>
+        </div>
+
+        <div class="main-chat">
+            <div id="chat-wrapper" class="chat-wrapper">
+                <!-- Resposne will append here -->
+            </div>
+        </div>
+        
+        <div class="prompt-wrapper">
+            <div id="input-wrapper" class="input-prompt">
+                <textarea class="input-prompt" rows="4" cols="50" id="input-prompt" placeholder="Message Not-gpt here"></textarea>
+                <button id="send-prompt" class="send-prompt">
+                    <span class="icon material-symbols-rounded">
+                        send
+                    </span>
+                </button>
+            </div>
+            <p class="credits">Developed by <a class="credits-link" href="https://www.facebook.com/unmotivatedlivingcreature/">Per</a></p>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
